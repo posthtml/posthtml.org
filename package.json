@@ -1,0 +1,12 @@
+{
+  "name": "posthtml.org",
+  "version": "1.0.0",
+  "description": "This directory is a brief example of a vanilla site that can be deployed to ZEIT Now with zero configuration.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "scrum",
+  "license": "ISC"
+}
