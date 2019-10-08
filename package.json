@@ -1,12 +1,20 @@
 {
   "name": "posthtml.org",
   "version": "1.0.0",
-  "description": "This directory is a brief example of a vanilla site that can be deployed to ZEIT Now with zero configuration.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "keywords": [],
   "author": "scrum",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-posthtml": "^1.1.0",
+    "htmlnano": "^0.2.4",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.3",
+    "posthtml": "^0.11.6"
+  }
 }

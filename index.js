@@ -1,14 +1,21 @@
-// 194.58.112.174
-const http = require('http')
-const port = 8080;
-const requestHandler = (request, response) => {
-    console.log(request.url)
-    response.end('PostHTML on a Node.js Server!')
-}
-const server = http.createServer(requestHandler)
-server.listen(port, (err) => {
-    if (err) {
-        return console.log('something bad happened', err)
-    }    
-    console.log(`server is listening on ${port}`)
+const express = require('express')
+const posthtml = require('express-posthtml')
+const morgan = require('morgan')
+const fs = require('fs')
+
+const app = express()
+const plugins = [
+    require('htmlnano')()
+  ];
+const options = {}
+
+app.use(morgan('dev'))
+// app.engine('html', posthtml);
+// app.set('view engine', 'html');
+// app.set('views', './views');
+// app.set('view options', { plugins, options });
+app.get('/', (req, res) => {
+    const html = fs.readFileSync('./views/index.html')
+    res.send(html.toString())
 })
+app.listen()
