@@ -8,8 +8,8 @@
 
 - Plugins
 
+  - [About](plugins/readme.md)
   - [Guide](plugins/guide.md)
-  - [Index](plugins/index.md)
   - [Reserved](plugins/reserved.md)
   - [Utils](plugins/utils.md)
 
