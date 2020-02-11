@@ -6,6 +6,8 @@
   - [Usage](usage.md)
   - [packages](packages.md)
 
+- [**CLI**](cli.md)
+
 - Plugins
 
   - [About](plugins/README.md)

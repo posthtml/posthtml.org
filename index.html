@@ -48,9 +48,12 @@
         auto2top: true,
         mergeNavbar: true,
         search: 'auto',
+        auto2top: true,
         coverpage: true,
         alias: {
-          '/.*/_sidebar.md': '/_sidebar.md'
+          '/.*/_sidebar.md': '/_sidebar.md',
+          '.*?/cli':
+            'https://raw.githubusercontent.com/posthtml/posthtml-cli/master/readme.md'
         },
         plugins: [
           EditOnGithubPlugin.create('https://github.com/posthtml/posthtml.org/')
