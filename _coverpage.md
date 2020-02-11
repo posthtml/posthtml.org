@@ -8,4 +8,4 @@ PostHTML itself is very small. It includes only a HTML parser, a HTML node tree 
 
 [GitHub](https://github.com/posthtml/posthtml/)
 [Getting Started](#posthtml)
-[Docs Github](https://github.com/anikethsaha/posthtml-website)
+[Docs Github](https://github.com/posthtml/posthtml.org)

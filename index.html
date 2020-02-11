@@ -25,22 +25,22 @@
     <div id="app">Loading ...</div>
     <script>
       window.$docsify = {
-        name: "posthtml",
-        repo: "https://github.com/posthtml/posthtml",
+        name: 'posthtml',
+        repo: 'https://github.com/posthtml/posthtml',
         loadSidebar: true,
         subMaxLevel: 1,
         maxLevel: 4,
         auto2top: true,
         mergeNavbar: true,
-        search: "auto",
+        search: 'auto',
         coverpage: true,
-
+        toc: {
+          headings: 'h1, h2, h3, h4, h5, h6'
+        },
         plugins: [
-          EditOnGithubPlugin.create(
-            "https://github.com/anikethsaha/posthtml-website/master/docs/"
-          )
+          EditOnGithubPlugin.create('https://github.com/posthtml/posthtml.org/')
         ]
-      };
+      }
     </script>
     <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
     <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
