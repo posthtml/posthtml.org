@@ -8,7 +8,7 @@
 
 # PostHTML
 
-<img align="right" width="220" height="200" style="margin:auto;    width: 100%;" title="PostHTML" src="http://posthtml.github.io/posthtml/logo.svg">
+<img align="right" width="220" height="200" style="margin:auto;    width: 100%;" title="PostHTML" src="https://posthtml.github.io/posthtml/logo.svg">
 
 PostHTML is a tool for transforming HTML/XML with JS plugins. PostHTML itself is very small. It includes only a HTML parser, a HTML node tree API and a node tree stringifier.
 

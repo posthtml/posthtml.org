@@ -1,4 +1,4 @@
-<img align="right" width="220" height="200" style="margin:auto;    width: 100%;" title="logo" src="http://posthtml.github.io/posthtml/logo.svg">
+<img align="right" width="220" height="200" style="margin:auto;    width: 100%;" title="logo" src="https://posthtml.github.io/posthtml/logo.svg">
 
 ## Posthtml
 
