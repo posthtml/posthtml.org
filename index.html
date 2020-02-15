@@ -76,7 +76,6 @@
           },
           function(hook, vm) {
             hook.afterEach(function(html) {
-              console.log('html', html)
               return (
                 html +
                 '<p>Contact the collaborators <a href="mailto:collaborators@posthtml.org">collaborators@posthtml.org</a></p>'
