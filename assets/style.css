@@ -126,3 +126,15 @@
   background-color: #f5f5f5;
   padding-left: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+  #CHANGELOG:hover {
+    background: #fff2dc;
+  }
+
+  #CHANGELOG {
+    margin: 1rem;
+    position: absolute;
+    left: 0;
+  }
+}
