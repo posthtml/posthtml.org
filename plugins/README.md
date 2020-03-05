@@ -119,9 +119,9 @@ export default function plugin (options = {}) {
 ```js
 export default function plugin (options = {}) {
     return function (tree) {
-      var outherTree = ['\n', {tag: 'div', content: ['1']}, '\n\t', {tag: 'div', content: ['2']}, '\n'];
-      var htmlWitchoutSpaceless = tree.render(outherTree).replace(/[\n|\t]/g, '');
-      return tree.parser(htmlWitchoutSpaceless)
+      var outerTree = ['\n', {tag: 'div', content: ['1']}, '\n\t', {tag: 'div', content: ['2']}, '\n'];
+      var htmlWithoutSpaces = tree.render(outerTree).replace(/[\n|\t]/g, '');
+      return tree.parser(htmlWithoutSpaces)
     }
 }
 ```
