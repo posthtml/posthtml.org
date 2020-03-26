@@ -44,7 +44,7 @@ posthtml().process(html, { parser: pug(options) }).then((result) => result.html)
 
 # [Plugins](http://maltsev.github.io/posthtml-plugins)
 
-In case you want to develop your own plugin, we recommend using [posthtml-plugin-boilerplate][plugin] for getting started.
+In case you want to develop your own plugin, we recommend using [posthtml-plugin-boilerplate][plugin] to get started.
 
 [plugin]: https://github.com/posthtml/posthtml-plugin-boilerplate
 
@@ -89,7 +89,7 @@ In case you want to develop your own plugin, we recommend using [posthtml-plugin
 |[posthtml-custom-elements][elem]|[![npm][elem-badge]][elem-npm]|Use custom elements|
 |[posthtml-web-component][web]|[![npm][web-badge]][web-npm]|Web Component server-side rendering, Component as a Service (CaaS)|
 |[posthtml-spaceless][spaceless]|[![npm][spaceless-badge]][spaceless-npm]|Remove whitespace between HTML tags|
-|[posthtml-cache][cache]|[![npm][cache-badge]][cache-npm]|Add a nanoid to links in you tags|
+|[posthtml-cache][cache]|[![npm][cache-badge]][cache-npm]|Add a nanoid to links in your tags|
 |[posthtml-highlight][highlight]|[![npm][highlight-badge]][highlight-npm]|Syntax highlight code elements|
 |[posthtml-pseudo][pseudo]|[![npm][pseudo-badge]][pseudo-npm]|Add pseudo selector class names to elements|
 |[posthtml-noopener][noopener]|[![npm][noopener-badge]][noopener-npm]|Add rel="noopener noreferrer" to links that open in new tab|
@@ -279,7 +279,7 @@ In case you want to develop your own plugin, we recommend using [posthtml-plugin
 |Name|Status|Description|
 |:---|:-----|:----------|
 |[posthtml-img-autosize][img]|[![npm][img-badge]][img-npm]|Auto setting the width and height of \<img\>|
-|[posthtml-to-svg-tags][svg]|[![npm][svg-badge]][svg-npm]|Convert html tags to svg equals|
+|[posthtml-to-svg-tags][svg]|[![npm][svg-badge]][svg-npm]|Convert html tags to svg equivalents|
 |[posthtml-webp][webp]|[![npm][webp-badge]][webp-npm]|Add WebP support for images|
 |[posthtml-favicons][favicons]|[![npm][favicons-badge]][favicons-npm]|Generate Favicons and add related tags|
 |[posthtml-inline-svg][inline-svg]|[![npm][inline-svg-badge]][inline-svg-npm]|Inline svg icons in HTML|
