@@ -14,7 +14,7 @@ PostHTML is a tool for transforming HTML/XML with JS plugins. PostHTML itself is
 
 All HTML transformations are made by plugins. And these plugins are just small plain JS functions, which receive a HTML node tree, transform it, and return a modified tree.
 
-For more detailed information about PostHTML in general take a look at the [docs][docs].
+For more detailed information about PostHTML in general take a look at the [docs][docs-url]
 
 ## Maintainers
 
@@ -39,7 +39,7 @@ For more detailed information about PostHTML in general take a look at the [docs
 
 ## Contributing
 
-See [PostHTML Guidelines](https://github.com/posthtml/posthtml/tree/master/docs) and [CONTRIBUTING](CONTRIBUTING.md).
+See [PostHTML Guidelines](plugins/guide.md) and [CONTRIBUTING](CONTRIBUTING.md).
 
 ## Contributors
 
@@ -63,3 +63,4 @@ See [PostHTML Guidelines](https://github.com/posthtml/posthtml/tree/master/docs)
 [twitter-url]: https://twitter.com/PostHTML
 [chat]: https://badges.gitter.im/posthtml/posthtml.svg
 [chat-url]: https://gitter.im/posthtml/posthtml?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"
+[docs-url]: https://github.com/posthtml/posthtml/tree/master/docs
