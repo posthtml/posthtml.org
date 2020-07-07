@@ -16,6 +16,40 @@ All HTML transformations are made by plugins. And these plugins are just small p
 
 For more detailed information about PostHTML in general take a look at the [docs][docs-url]
 
+## Who's Using Posthtml ?
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/maizzle">
+      <img width="150 height="150" src="https://github.com/maizzle.png?size=150">
+      <br />
+      Maizzle
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/parcel-bundler">
+      <img width="150 height="150" src="https://github.com/parcel-bundler.png?size=150">
+      <br />
+      Parcel
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/webpack-contrib/html-loader">
+      <img width="150 height="150" src="https://github.com/webpack-contrib.png?size=150">
+      <br />
+      webpack-contrib
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/11ty/eleventy-plugin-rss">
+      <img width="150 height="150" src="https://github.com/11ty.png?size=150">
+      <br />
+      Eleventy
+      </a>
+    </td>                                                                                    
+  </tr>
+</table>
+
 ## Maintainers
 
 <table>
@@ -32,6 +66,18 @@ For more detailed information about PostHTML in general take a look at the [docs
       src="https://avatars.githubusercontent.com/u/1510217?v=3&s=150">
       <br />
       <a href="https://github.com/voischev">Ivan Voischev</a>
+    </td>
+    <td align="center">
+      <img width="150 height="150"
+      src="https://github.com/anikethsaha.png?size=150">
+      <br />
+      <a href="https://github.com/anikethsaha">Aniketh Saha</a>
+    </td>
+    <td align="center">
+      <img width="150 height="150"
+      src="https://github.com/cossssmin.png?size=150">
+      <br />
+      <a href="https://github.com/cossssmin">Cosmin Popovici</a>
     </td>
    </tr>
   <tbody>
