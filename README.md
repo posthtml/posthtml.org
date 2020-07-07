@@ -40,6 +40,13 @@ For more detailed information about PostHTML in general take a look at the [docs
       webpack-contrib
       </a>
     </td>
+    <td align="center">
+      <a href="https://github.com/11ty/eleventy-plugin-rss">
+      <img width="150 height="150" src="https://github.com/11ty.png?size=150">
+      <br />
+      Eleventy
+      </a>
+    </td>                                                                                    
   </tr>
 </table>
 
