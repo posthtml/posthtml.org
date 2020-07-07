@@ -50,7 +50,7 @@ For more detailed information about PostHTML in general take a look at the [docs
       <img width="150 height="150"
       src="https://github.com/anikethsaha.png?size=150">
       <br />
-      <a href="https://github.com/anikethsaha">Anix Anikethsaha</a>
+      <a href="https://github.com/anikethsaha">Aniketh Saha</a>
     </td>
     <td align="center">
       <img width="150 height="150"
