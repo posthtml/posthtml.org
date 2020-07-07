@@ -26,6 +26,13 @@ For more detailed information about PostHTML in general take a look at the [docs
       Maizzle
       </a>
     </td>
+    <td align="center">
+      <a href="https://github.com/parcel-bundler">
+      <img width="150 height="150" src="https://github.com/parcel-bundler.png?size=150">
+      <br />
+      Parcel
+      </a>
+    </td>
   </tr>
 </table>
 
