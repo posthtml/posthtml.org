@@ -33,6 +33,13 @@ For more detailed information about PostHTML in general take a look at the [docs
       Parcel
       </a>
     </td>
+    <td align="center">
+      <a href="https://github.com/webpack-contrib/html-loader">
+      <img width="150 height="150" src="https://github.com/webpack-contrib.png?size=150">
+      <br />
+      webpack-contrib
+      </a>
+    </td>
   </tr>
 </table>
 
