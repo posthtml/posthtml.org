@@ -16,7 +16,7 @@ All HTML transformations are made by plugins. And these plugins are just small p
 
 For more detailed information about PostHTML in general take a look at the [docs][docs-url]
 
-## Us Use
+## Who's Using Posthtml ?
 <table>
   <tr>
     <td align="center">
@@ -46,11 +46,17 @@ For more detailed information about PostHTML in general take a look at the [docs
       <br />
       <a href="https://github.com/voischev">Ivan Voischev</a>
     </td>
-     <td align="center">
+    <td align="center">
       <img width="150 height="150"
       src="https://github.com/anikethsaha.png?size=150">
       <br />
       <a href="https://github.com/anikethsaha">Anix Anikethsaha</a>
+    </td>
+    <td align="center">
+      <img width="150 height="150"
+      src="https://github.com/cossssmin.png?size=150">
+      <br />
+      <a href="https://github.com/cossssmin">Cosmin Popovici</a>
     </td>
    </tr>
   <tbody>
