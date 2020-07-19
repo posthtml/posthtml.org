@@ -32,8 +32,6 @@
   padding: 24px;
   border-right: 1px solid #dee2e7;
   overflow-y: auto;
-  position: -webkit-sticky;
-  position: sticky;
   top: 0;
 }
 .sidebar > .app-name {
@@ -141,4 +139,17 @@
     position: absolute;
     left: 0;
   }
+  .sidebar {
+      left: -312px;
+  }
+  .sidebar-toggle {
+      padding: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+    .sidebar {
+        position: -webkit-sticky;
+        position: sticky;
+    }
 }
