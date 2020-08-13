@@ -64,14 +64,20 @@
         coverpage: true,
         alias: {
           '/.*/_sidebar.md': '/_sidebar.md',
+          '.*?/core':
+            'https://raw.githubusercontent.com/posthtml/posthtml/master/docs/core.md',
+          '.*?/tree':
+            'https://raw.githubusercontent.com/posthtml/posthtml/master/docs/tree.md',
+          '.*?/api':
+            'https://raw.githubusercontent.com/posthtml/posthtml/master/docs/api.md',
           '.*?/cli':
-            'https://raw.githubusercontent.com/posthtml/posthtml-cli/master/readme.md'
+            'https://raw.githubusercontent.com/posthtml/posthtml-cli/master/readme.md',
         },
         changelog:
           'https://raw.githubusercontent.com/posthtml/posthtml/master/CHANGELOG.md',
         plugins: [
-          function(hook, vm) {
-            hook.beforeEach(function(html) {
+          function (hook, vm) {
+            hook.beforeEach(function (html) {
               if (/githubusercontent\.com/.test(vm.route.file)) {
                 url = vm.route.file
                   .replace('raw.githubusercontent.com', 'github.com')
@@ -86,15 +92,15 @@
               return editHtml + '\n' + html
             })
           },
-          function(hook, vm) {
-            hook.afterEach(function(html) {
+          function (hook, vm) {
+            hook.afterEach(function (html) {
               return (
                 html +
                 '<p>Contact the collaborators <a href="mailto:collaborators@posthtml.org">collaborators@posthtml.org</a></p>'
               )
             })
-          }
-        ]
+          },
+        ],
       }
     </script>
 
