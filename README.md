@@ -45,7 +45,16 @@ For more detailed information about PostHTML in general take a look at the [docs
       <br />
       Eleventy
       </a>
-    </td>                                                                                    
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/JetBrains/svg-mixer">
+      <img width="150 height="150" src="https://github.com/JetBrains.png?size=150">
+      <br />
+      JetBrains
+      </a>
+    </td>
   </tr>
 </table>
 
