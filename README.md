@@ -55,6 +55,13 @@ For more detailed information about PostHTML in general take a look at the [docs
       JetBrains
       </a>
     </td>
+    <td align="center">
+      <a href="https://github.com/chromeos/create-vite-pwa">
+      <img width="150 height="150" src="https://github.com/chromeos.png?size=150">
+      <br />
+      Chrome OS 
+      </a>
+    </td>
   </tr>
 </table>
 
