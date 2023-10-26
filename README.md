@@ -1,8 +1,6 @@
 [![NPM][npm]][npm-url]
-[![Deps][deps]][deps-url]
 [![Tests][build]][build-url]
 [![Coverage][cover]][cover-url]
-[![Standard Code Style][code-style]][code-style-url]
 [![Twitter][twitter]][twitter-url]
 
 # PostHTML
@@ -120,21 +118,11 @@ Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com
 [npm]: https://img.shields.io/npm/v/posthtml.svg
 [npm-url]: https://npmjs.com/package/posthtml
 
-[deps]: https://david-dm.org/posthtml/posthtml.svg
-[deps-url]: https://david-dm.org/posthtml/posthtml
-
 [build]: https://github.com/posthtml/posthtml/workflows/Actions%20Status/badge.svg?style=flat-square
 [build-url]: https://github.com/posthtml/posthtml/actions?query=workflow%3A%22CI+tests%22
 
 [cover]: https://coveralls.io/repos/posthtml/posthtml/badge.svg?branch=master
 [cover-url]: https://coveralls.io/r/posthtml/posthtml?branch=master
 
-[code-style]: https://img.shields.io/badge/code%20style-standard-yellow.svg
-[code-style-url]: http://standardjs.com/
-
-[twitter]: https://badgen.net/twitter/follow/posthtml
+[twitter]: https://badgen.net/badge/icon/PostHTML?icon=twitter&label
 [twitter-url]: https://twitter.com/PostHTML
-
-[chat]: https://badges.gitter.im/posthtml/PostHTML.svg
-[chat-url]: https://gitter.im/posthtml/posthtml?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"
-[docs-url]: https://github.com/posthtml/posthtml/tree/master/docs
